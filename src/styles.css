@@ -1,0 +1,68 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.cancel-a-behavior{
+	text-decoration:none;
+	color: inherit;
+}
+
+.cancel-a-behavior:hover{
+	color:inherit;
+}
+
+button:focus{
+	outline-width: 0px;
+}
+
+.notActiveButton {
+	color: white;
+	background-color: black;
+}
+
+.auth-container {
+	width: 33%;
+	margin: auto;
+}
+
+.logo{
+	border-radius: 50%;
+	display: inline-flex;
+	background-color: lightgray;
+	align-items: center;
+	justify-content: center;
+}
+.logo p{
+	font-weight: bold;
+}
+.comment-text{
+	background-color: whitesmoke;
+	color:black
+}
+ul{
+	border: 1px solid gray;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+li{
+	background-color: white;
+	border-bottom: 1px solid gray;
+	cursor:pointer
+}
+
+.push-right-absolute{
+	right:0px;
+	top:0px;
+	position:absolute;
+	cursor:pointer
+}
+
+.create-ad{
+	position:fixed;
+	right:30px;
+	bottom:30px
+}
+
+
